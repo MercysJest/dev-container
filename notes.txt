@@ -1,0 +1,20 @@
+https://forums.docker.com/t/using-localhost-for-to-access-running-container/3148
+https://medium.com/devopslinks/how-to-build-a-docker-container-from-scratch-docker-basics-a-must-know-395cba82897b
+https://serverfault.com/questions/160581/how-to-setup-passwordless-sudo-on-linux
+https://docs.docker.com/engine/examples/running_ssh_service/
+https://www.jamescoyle.net/how-to/1503-create-your-first-docker-container
+https://www.tecmint.com/install-run-and-delete-applications-inside-docker-containers/
+https://medium.com/the-code-review/docker-copy-dockerfile-best-practices-503704bee69f
+
+docker image ls
+docker container ls -a
+docker container prune
+docker build -t imagename .
+docker run -d -p 127.0.0.1:22:22 --name containername imagename
+docker run -d -p 127.0.0.1:22:22 -v $(pwd):/root --name test_container test_image
+docker run -d -p 127.0.0.1:22:22 -v $(pwd)/home:/home/coder --name test_container test_image
+^ mounts current directory to /root in container
+
+https://haskell.fpcomplete.com/tutorial/stack-build
+http://seanhess.github.io/2015/08/04/practical-haskell-getting-started.html
+https://duplode.github.io/posts/migrating-a-project-to-stack.html
