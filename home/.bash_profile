@@ -1,6 +1,6 @@
 export TERM="konsole-256color"
 export TERM_PROGRAM="Konsole"
-export PS1="\u\[\e[90m\] \h\[\e[m\] \[\e[92m\]\W\[\e[m\] \[\e[92m\]λ\[\e[m\] "
+export PS1="\u\[\e[90m\] \h\[\e[m\] \[\e[92m\]\W\[\e[m\] \[\e[92m\]#\[\e[m\] "
 alias ta="tmux attach"
 alias tn="tmux new"
 alias vim="nvim"

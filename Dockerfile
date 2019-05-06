@@ -33,7 +33,7 @@ CMD ["/sbin/my_init"]
 
 RUN apt-get update
 RUN install_clean g++ gcc libc6-dev libffi-dev libgmp-dev make xz-utils zlib1g-dev git gnupg netbase
-RUN install_clean neovim tmux sudo git haskell-stack haskell-platform
+RUN install_clean neovim tmux sudo git haskell-stack haskell-platform wget
 RUN apt-get autoremove
 
 RUN mkdir -p /usr/share/terminfo/k
